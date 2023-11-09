@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "miFuente";
+  src: url("../fuentes/arial.ttf");
+}
+
+html {
+  font-family: miFuente;
+}
+
+body {
+  background-color: #8d0002;
+  color: silver;
+  text-shadow: 0px 2px 1px #000;
+}
+
+.container {
+  width: 40%;
+  height: 100vh;
+  min-height: 100vh;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.logo {
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+hr {
+  width: 85%;
+  text-align: center;
+}
+
+.contenedorLogo {
+  margin-top: 3px;
+  width: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contenedorLogo img {
+  width: 80%;
+}
+.datos {
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+}
+
+.infoBanco,
+.infoSaldo {
+  height: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.spanBanco {
+  height: 60%;
+  text-align: center;
+  font-size: 2.5em;
+  display: grid;
+  place-items: center;
+}
+
+.spanSucursal {
+  height: 40%;
+  display: grid;
+  place-items: center;
+  font-size: 1.5em;
+}
+
+.spanCliente {
+  margin-bottom: 9px;
+}
+
+.spanNumCuenta {
+  margin-bottom: 12px;
+}
+
+.infoCliente,
+.infoPie {
+  height: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: 600;
+  font-size: 1.2em;
+  padding: 10px 0;
+}
+
+.infoSaldo {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.SaldoDolares {
+  height: 50%;
+  display: flex;
+  gap: 8px;
+}
+
+.logoDolar {
+  width: 25%;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+
+.logoDolar img {
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  border: 1px solid azure;
+}
+
+.spanValorDolar {
+  width: 75%;
+  display: flex;
+  align-items: center;
+  font-size: 1.5em;
+  padding-left: 20px;
+}
+
+.SaldoEuros {
+  height: 50%;
+  display: flex;
+  gap: 8px;
+}
+
+.logoEuro {
+  width: 25%;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+
+.logoEuro img {
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  border: 1px solid azure;
+}
+
+.spanValorEuro {
+  width: 75%;
+  display: flex;
+  align-items: center;
+  font-size: 1.5em;
+  padding-left: 20px;
+  margin-bottom: 10px;
+}
+
+.spanCbu{
+  margin: 10px 0;
+}
