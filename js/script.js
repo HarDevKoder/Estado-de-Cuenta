@@ -17,7 +17,7 @@ fetch('json/resumen.json')
     spanCliente.textContent = resumen.titular;
     spanNumCuenta.textContent = `Nro Cuenta: ${resumen.nro_cuenta}`;
     spanValorDolar.textContent = resumen.saldo[0].monto + '  USD';
-    spanValorEuro.textContent = resumen.saldo[1].monto + '  USD';
+    spanValorEuro.textContent = resumen.saldo[1].monto + '  EUR';
     spanCbu.textContent = `CBU: ${resumen.cbu}`;
     spanAbierto.textContent = `Abierta: ${resumen.abierto}`;
   })
